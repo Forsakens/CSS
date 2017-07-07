@@ -1,0 +1,121 @@
+﻿/* ------------------------------------------ Pemangkat Community ( Hacking Forsakens ) CSS HF .v1 - WebForsakens.com Licensed under Unlicense http://Kenalanyuk.net http://Pemangkat.tk http://WebForsakens.org http://WebForsakens.net ------------------------------------------ */
+
+
+.all-button {
+
+
+    position: relative;
+
+
+    background: #1A77D0;
+
+
+    border-radius: 5px 5px 0px 0px;
+
+
+    overflow: hidden;
+
+
+    width: 100%;
+
+
+}
+
+
+
+
+#Forsakens-Mirror {
+
+
+    text-align: center;
+
+
+    float: left;
+
+
+    background: #1a77d0;
+
+
+    cursor: pointer;
+
+
+    width: 23.77%;
+
+
+    height: 27px;
+
+
+    line-height: 27px;
+
+
+    color: #fff;
+
+
+    font-size: 14px;
+
+
+    padding: 3px;
+
+
+    font-weight: 700;
+
+
+    border-right: 1px solid #CCC;
+
+
+}
+
+
+
+
+#Content1 {
+
+
+    display: block;
+
+
+    width: 100%;
+
+
+    height: 400px;
+
+
+    padding: 0;
+
+
+    text-align: center;
+
+
+    background: #000;
+
+
+}
+
+
+
+
+#Content2, #Content3, #Content4 {
+
+
+    display: none;
+
+
+    width: 100%;
+
+
+    height: 400px;
+
+
+    padding: 0;
+
+
+    text-align: center;
+
+
+    background: #000;
+
+
+}
+
+
+
