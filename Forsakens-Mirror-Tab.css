@@ -1,0 +1,61 @@
+/* ------------------------------------------
+Pemangkat Community ( Hacking Forsakens )
+CSS HF .v1 - WebForsakens.com
+
+Licensed under Unlicense
+http://Kenalanyuk.net
+http://Pemangkat.tk
+http://WebForsakens.org
+http://WebForsakens.net
+------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------- HF TAB */
+
+
+.container{width:100%;margin:0 auto}
+.tabs input[type=&quot;radio&quot;]{display:none}
+.tabs nav{width:100%;display:table}
+.tabs label{    display: table-cell;
+    width: 20%;
+    line-height: 3;
+    text-align: center;
+    text-transform: uppercase;background-color: rgba(21,156,239,0.8);
+    color: white;}
+.tabs label:hover{background-color: rgba(21,156,239,0.8);
+    color: white;}
+.tabs input[type=&quot;radio&quot;]{display:none}
+.tabs nav{background-color:grey}
+.tabs label{width:34%;line-height:2}
+.tabs{position:relative;height:auto;padding:0 3px 24px}
+.tabs input[type=&quot;radio&quot;]{display:none}
+.tabs nav{width:100%;display:table}
+.tabs label{    position: relative;
+    overflow: hidden;
+    background-color: #0091EA;
+    cursor: pointer;
+    display: table-cell;
+    line-height: 3;
+    text-align: center;
+    text-transform: uppercase;}
+.tabs label:hover{background-color: rgba(21,156,239,0.8);
+    color: white;}
+.tabs article{    border: 1px solid #d5d5d5;
+    left: 0;
+    background-color: #f7f7f7;
+    padding: .5em;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    overflow: hidden;}
+#tab_1:checked ~ nav [for=&#39;tab_1&#39;],#tab_2:checked ~ nav [for=&#39;tab_2&#39;],#tab_3:checked ~ nav [for=&#39;tab_3&#39;]{background-color:#0091EA;color:white}
+#tab_1:checked ~ nav [for=&#39;tab_1&#39;]:after,#tab_2:checked ~ nav [for=&#39;tab_2&#39;]:after,#tab_3:checked ~ nav [for=&#39;tab_3&#39;]:after{    content: &quot;&quot;;
+    border-right: 9px solid transparent;
+    border-top: 13px solid #2a97d9;
+    bottom: -42px;
+    height: 0;
+    left: -28px;
+    position: relative;
+    width: 0;}
+#tab_1:checked ~ .tab_content_1,#tab_2:checked ~ .tab_content_2,#tab_3:checked ~ .tab_content_3{display:block;left:0;position:relative;transform:scale(1);transition:transform 0.2s ease-out}
+
